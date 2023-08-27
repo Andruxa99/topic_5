@@ -1,5 +1,5 @@
 colors = ["Red", "Green", "White", "Black", "Pink", "Yellow"]
 
-...  # Ваш код
+colors.reverse()
 
 print(colors)
