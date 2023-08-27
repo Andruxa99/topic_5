@@ -1,8 +1,6 @@
 numbers: list = [12, 45, 0.34711, 67, 89, 34, 55.632781, 78.9395]
 
-# TODO: Пожалуйста, добавьте свой код ниже с комментариями и понятными названиями переменных.
+value: float | int = sum(numbers)  # Сумма всех элементов
+average_value: float = round(value / len(numbers), 1)  # Среднее значение
 
-value: int = sum(numbers)  # Сумма всех элементов
-average_value: float = value / 8  # Среднее значение
-
-print("Среднее значение:", round(average_value, 1))
+print("Среднее значение:", average_value)
